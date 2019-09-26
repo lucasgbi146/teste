@@ -1,0 +1,197 @@
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<title> Emprego para deficientes </title>
+		<link rel="stylesheet" type="text/css" href="../css/css.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../script/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="heEsq">
+				<form id="busca">
+					<input type="image" src="../imagens/lupa.png" alt="pesquisar" id="imgPesq">
+					<input type="text" id="pesquisar" placeholder="Pesquisar..." value="">
+				</form>   
+			</div>
+			<div id="heDir">
+				<nav>
+					<a href="login.html" class="links"><strong>Entrar</strong></a> ou
+					<a href="cadastro.html" class="links"><strong>Cadastrar</strong></a>
+				</nav>
+			</div>
+
+		<br/> <br/>
+		
+			<div id="pc">
+				<div id="parte2" align="center">
+					<table>
+						<tr>
+							<th id="dir">
+								<hr/>
+								<a href="" class="links"> OCUPAÇÕES </a>
+								<hr/>
+							</th>
+							<td>
+								<div align="center">
+									<a href="../index.html"><img src="../imagens/logo.png" alt="logo" width="35%" id=""></a>
+								</div>
+							</td>
+							<th id="esq">
+								<hr/>
+								<a href="" class="links"> COMENTÁRIOS </a>
+								<hr/>
+							</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<br/>
+		</header>
+		
+		<div id="cadastro" align="center">
+		<div id="teste">
+			<br/>
+			<h2 id="titulo" align="center"><strong>CADASTRAR</strong></h2>
+			<div id="bloCad">
+				<img src="../imagens/cadastrar.png" id="pessoa" width="20%"/>
+				<div id="dFormLog">
+					<form>
+						<h3>Dados pessoais</h3>
+						<hr/>
+						<table>
+							<tr>
+								<td>
+									<label><strong>Nome</strong></label>
+								</td>
+								<td>
+									<input type="text" class="form12" id="nome" placeholder="nome" required/>
+								</td>
+								<td>
+									<label><strong>Idade</strong></label>
+								</td>
+								<td>
+									<input type="number" class="form12" id="idade" placeholder="idade" required/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label><strong>Estado</strong></label>
+								</td>
+								<td>
+									<input type="text" class="form12" id="estado" placeholder="estado" required/>
+								</td>
+								<td>
+									<label><strong>Telefone</strong></label>
+								</td>
+								<td>
+									<input type="number" class="form12" id="telefone" placeholder="telefone" required/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label><strong>Cidade</strong></label>
+								</td>
+								<td>
+									<input type="text" class="form12" id="cidade" placeholder="cidade" required/>
+								</td>
+								<td>
+									<label><strong>RG</strong></label>
+								</td>
+								<td>
+									<input type="number" class="form12" id="RG" placeholder="RG" required/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label><strong>CEP</strong></label>
+								</td>
+								<td>
+									<input type="number" class="form12" id="CEP" placeholder="CEP" required/>
+								</td>
+								<td>
+									<label><strong>CPF</strong></label>
+								</td>
+								<td>
+									<input type="number" class="form12" id="CPF" placeholder="CPF" required/>
+								</td>
+							</tr>
+						</table>
+						<hr/>
+						<br/>
+						<h3>Dados do usuário</h3>
+						<hr/>
+						<table>
+							<tr>
+								<td>
+									<label><strong>Email</strong></label>
+								</td>
+								<td>
+									<input type="email" class="form12" id="email" placeholder="E-mail" required/>
+								</td>
+								<td>
+									<label><strong>Senha</strong></label>
+								</td>
+								<td>
+									<input type="password" class="form12" id="senha" placeholder="senha" required/>
+								</td>
+							</tr>
+						<table>
+							<tr>
+								<td>
+									<label><strong>Sobre você</strong></label>
+								</td>
+								<td colspan="3">
+									<textarea id="comentario" cols="70%" rows="10" required></textarea>
+								</td>
+							</tr>
+						</table>
+						<hr/>
+						<table>
+							<tr>
+								<td colspan="2" align="center">
+									<button type="submit" id="botLogin" onclick="Enviar2();">Cadastrar</button>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<br/>
+		</div>
+		</div>
+	
+		<footer>
+			<div id="part4">
+				<br/>
+				<h2 id="titulo" align="center"><strong>CONECTE CONOSCO:</strong></h2>
+				<br/>
+				<table align="center" id="redes">
+					<tr>
+						<td align="center">
+							<a href=""> <img src="../imagens/facebook.png" width="40%" alt="facebook"/> </a>
+						</td>
+						<td align="center">
+							<a href=""> <img src="../imagens/instagram.png" width="40%" alt="instagram"/> </a>
+						</td>
+						<td align="center">
+							<a href=""> <img src="../imagens/twitter.png" width="40%" alt="twitter"/> </a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+				<!--
+				As contas de facebook, instagram e twitter não foram criadas ainda, portanto os links não levam à esses lugares.
+				-->
+				
+			<div id="foo2">
+				<br/>
+				<h6 align="center">© Copyright 2019 - All Rights Reserved</h6>
+				<br/>
+			</div>
+		</footer>
+		
+	</body>
+</html>
